@@ -1,1 +1,1 @@
-web:gunicorn app:trial
+web:gunicorn trial:app
