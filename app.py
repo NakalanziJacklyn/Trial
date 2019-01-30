@@ -6,6 +6,6 @@ trial = Flask(__name__)
 def hello_world():
     return render_template('home.html')
 
-    @trial.route('/')
+@trial.route('/')
 def hello_world():
     return 'This is my about page'
